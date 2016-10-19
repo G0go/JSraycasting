@@ -112,7 +112,6 @@ $(document).ready(function(){
             var yStart = -length / 2 + game.screenHeight / 2;
             var yEnd = length / 2 + game.screenHeight / 2;
             if (game.map[game.mapPos.x][game.mapPos.y] == 1)  {
-//                console.log('writing');
                 ctx.moveTo(x,yStart);
                 ctx.lineTo(x, yEnd);
             }
